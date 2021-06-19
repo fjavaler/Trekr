@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F82DEEF7267E63FC001D5CE8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DEEF6267E63FC001D5CE8 /* Location.swift */; };
 		F82DEEF9267E66FF001D5CE8 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DEEF8267E66FF001D5CE8 /* Locations.swift */; };
+		F82DEEFB267E7693001D5CE8 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DEEFA267E7693001D5CE8 /* WorldView.swift */; };
+		F82DEEFD267E81E3001D5CE8 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DEEFC267E81E3001D5CE8 /* Tip.swift */; };
+		F82DEEFF267E828A001D5CE8 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DEEFE267E828A001D5CE8 /* TipsView.swift */; };
 		F83C0CEE267BD12800C0E07E /* TrekrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83C0CED267BD12800C0E07E /* TrekrApp.swift */; };
 		F83C0CF0267BD12800C0E07E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83C0CEF267BD12800C0E07E /* ContentView.swift */; };
 		F83C0CF2267BD12900C0E07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83C0CF1267BD12900C0E07E /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		F82DEEF6267E63FC001D5CE8 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F82DEEF8267E66FF001D5CE8 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		F82DEEFA267E7693001D5CE8 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		F82DEEFC267E81E3001D5CE8 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		F82DEEFE267E828A001D5CE8 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		F83C0CEA267BD12800C0E07E /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83C0CED267BD12800C0E07E /* TrekrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrApp.swift; sourceTree = "<group>"; };
 		F83C0CEF267BD12800C0E07E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,13 +66,16 @@
 			isa = PBXGroup;
 			children = (
 				F83C0CED267BD12800C0E07E /* TrekrApp.swift */,
+				F82DEEFA267E7693001D5CE8 /* WorldView.swift */,
+				F82DEEFC267E81E3001D5CE8 /* Tip.swift */,
+				F82DEEFE267E828A001D5CE8 /* TipsView.swift */,
 				F83C0CEF267BD12800C0E07E /* ContentView.swift */,
+				F82DEEF8267E66FF001D5CE8 /* Locations.swift */,
 				F82DEEF6267E63FC001D5CE8 /* Location.swift */,
 				F83C0CFB267BD6DD00C0E07E /* locations.json */,
 				F83C0CFC267BD6DD00C0E07E /* tips.json */,
 				F83C0CF1267BD12900C0E07E /* Assets.xcassets */,
 				F83C0CF3267BD12900C0E07E /* Preview Content */,
-				F82DEEF8267E66FF001D5CE8 /* Locations.swift */,
 			);
 			path = Trekr;
 			sourceTree = "<group>";
@@ -153,6 +162,9 @@
 			files = (
 				F83C0CF0267BD12800C0E07E /* ContentView.swift in Sources */,
 				F82DEEF7267E63FC001D5CE8 /* Location.swift in Sources */,
+				F82DEEFB267E7693001D5CE8 /* WorldView.swift in Sources */,
+				F82DEEFD267E81E3001D5CE8 /* Tip.swift in Sources */,
+				F82DEEFF267E828A001D5CE8 /* TipsView.swift in Sources */,
 				F82DEEF9267E66FF001D5CE8 /* Locations.swift in Sources */,
 				F83C0CEE267BD12800C0E07E /* TrekrApp.swift in Sources */,
 			);

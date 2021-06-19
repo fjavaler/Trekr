@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Location: Decodable {
+struct Location: Decodable,Identifiable {
   
   // MARK: Properties
   let id: Int
